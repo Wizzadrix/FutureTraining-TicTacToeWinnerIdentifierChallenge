@@ -28,6 +28,7 @@ namespace TicTacToeWinnerIdentifierChallenge
             Console.ReadKey();
         }
 
+        //My solution is a bit of an "overkill", since it also checks what kind of victory and who wins, not just "is there any winner"
         public static bool CheckWinner(string[,] board)
         {
             //X and O counter for diagonals left to right:
